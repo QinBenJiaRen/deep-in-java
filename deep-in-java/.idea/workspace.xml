@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="444a8aba-483a-478f-a039-88e64620bfe8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="deep-in-java" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ys9WIYgRkzbiq1IaSscCnYhAhn" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="D:/git/netty" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jia_h\IdeaProjects\deep-in-java\deep-in-thread\src\main\resources\META-INF\services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PreMainDemo">
+    <configuration name="ApplicationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haiyang.www.serviceRegister.ApplicationDemo" />
+      <module name="deep-in-thread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlockingQueueQuestion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haiyang.www.juc.BlockingQueueQuestion" />
+      <module name="deep-in-thread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haiyang.www.GoF.VistorPattern.Client" />
+      <module name="deep-in-thread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockSupportDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haiyang.www.juc.LockSupportDemo" />
+      <module name="deep-in-thread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PreMainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.haiyang.www.jvm.PreMainDemo" />
+      <module name="deep-in-thread" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PreMainDemo" />
+        <item itemvalue="Application.LockSupportDemo" />
+        <item itemvalue="Application.ApplicationDemo" />
+        <item itemvalue="Application.BlockingQueueQuestion" />
+        <item itemvalue="Application.Client" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1585210920857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585210920857" />
+    <state x="415" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585818283942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="415" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1585818283942" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1588128224932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588128224932" />
+    <state x="321" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588128935923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="321" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1588128935923" />
+    <state x="523" y="9" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585818150654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="9" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1585818150654" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1585211456436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1585211456436" />
+    <state x="317" y="238" key="FileChooserDialogImpl" timestamp="1585211377477">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="317" y="238" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585211377477" />
+    <state x="577" y="325" key="Github.CreateGistDialog" timestamp="1588128987732">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="577" y="325" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1588128987732" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1586227577407">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586227577407" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1586227577406">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586227577406" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1586227577406">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586227577406" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1586227577406">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586227577406" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585818678300">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585818678300" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585818678300">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585818678300" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585818678300">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585818678300" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585818678300">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585818678300" />
+    <state x="349" y="146" key="IDE.errors.dialog" timestamp="1585211774441">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="146" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1585211774441" />
+    <state x="26" y="0" key="SettingsEditor" timestamp="1585809308618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="26" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585809308618" />
+    <state x="537" y="157" width="543" height="524" key="StructurePopup" timestamp="1585896766505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="157" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1585896766505" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585209993979">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585209993979" />
+    <state x="447" y="145" width="642" height="534" key="find.popup" timestamp="1585798248785">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="145" width="642" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585798248785" />
+    <state x="178" y="106" key="new project wizard" timestamp="1583720507803">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="106" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1583720507803" />
+    <state x="433" y="234" width="715" height="521" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585013845089">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="433" y="234" width="715" height="521" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1585013845089" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586416699536">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586416699536" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/deep-in-thread/src/main/java/com/haiyang/www/vistorPattern/ObjectStructure.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
