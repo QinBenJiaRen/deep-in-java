@@ -7,10 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="deep-in-thread" />
+        <module name="deep-in-guava" />
+        <module name="deep-in-lambda" />
+        <module name="deep-in-dataStruct" />
+        <module name="deep-in-pattern" />
+        <module name="deep-in-juc" />
+        <module name="deep-in-module" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="deep-in-java" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="deep-in-dataStruct" target="8" />
+      <module name="deep-in-guava" target="8" />
+      <module name="deep-in-java" target="8" />
+      <module name="deep-in-juc" target="8" />
+      <module name="deep-in-lambda" target="8" />
+      <module name="deep-in-module" target="11" />
+      <module name="deep-in-pattern" target="8" />
       <module name="deep-in-thread" target="8" />
     </bytecodeTargetLevel>
   </component>
