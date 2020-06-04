@@ -11,7 +11,7 @@ public class LeetCode_122 {
 
     public static void main(String[] args) {
         int[] prices = new int[] {1, 2, 4, 5, 6};
-        maxProfit(prices);
+        System.out.println(maxProfit(prices));
     }
 
     public static int maxProfit(int[] prices) {
