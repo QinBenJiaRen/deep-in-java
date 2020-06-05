@@ -25,6 +25,13 @@
         <module>deep-in-module</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.context</groupId>
+            <artifactId></artifactId>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
