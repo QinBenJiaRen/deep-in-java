@@ -1,5 +1,7 @@
 package Problems.Easy;
 
+import java.util.Map;
+
 /**
  * 69. Sqrt(x)
  * Implement int sqrt(int x).
@@ -23,11 +25,12 @@ public class LeetCode_69 {
 
     public static void main(String[] args) {
         System.out.println(mySqrt(8));
+        System.out.println(mySqrt2(8));
 
-        System.out.println(Math.sqrt(8));
+        //System.out.println(Math.sqrt(8));
     }
 
-    public static double mySqrt(int x) {
+    public static int mySqrt(int x) {
         if (x == 0) {
             return 0;
         }
@@ -48,9 +51,34 @@ public class LeetCode_69 {
 
             if (Math.abs((x / mid) - mid) <= 0.001) {
                 //System.out.printf("x={%s}, left={%s}, right={%s}, mid={%s}\n", x, left, right, mid);
-                return mid;
+                //return (int) Math.floor(mid); //向下取整
+                //System.out.printf("向上取整{%s}, 向下取整{%s}", Math.ceil(mid), Math.floor(mid));
+                //return (int) Math.ceil(mid); //向上取整
+                System.out.println(mid);
+                return (int) mid;
             }
         }
-        return mid;
+        System.out.printf("向上取整{%s}, 向下取整{%s}", Math.ceil(mid), Math.floor(mid));
+        return (int) mid;
+    }
+
+    public static int mySqrt2(int x) {
+        if(x==0){
+            return 0;
+        }
+        int start = 1;
+        int end = x;
+        int ans =0;
+        while(start<=end){
+            int mid = (end+start)/2;
+            if(mid <= x/mid){
+                ans = mid;
+                start = mid+1;
+            }
+            else{
+                end = mid-1;
+            }
+        }
+        return ans;
     }
 }
