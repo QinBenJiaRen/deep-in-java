@@ -23,6 +23,8 @@ public class LeetCode_69 {
 
     public static void main(String[] args) {
         System.out.println(mySqrt(8));
+
+        System.out.println(Math.sqrt(8));
     }
 
     public static double mySqrt(int x) {
@@ -37,14 +39,15 @@ public class LeetCode_69 {
             mid = (left + right) / 2;
             if (x / mid > mid) {
                 left = mid;
-                System.out.printf("x={%s}, left={%s}, right={%s}, mid={%s}\n", x, left, right, mid);
+                //System.out.printf("x={%s}, left={%s}, right={%s}, mid={%s}\n", x, left, right, mid);
             }
             if (x / mid < mid) {
                 right = mid;
-                System.out.printf("x={%s}, left={%s}, right={%s}, mid={%s}\n", x, left, right, mid);
+                //System.out.printf("x={%s}, left={%s}, right={%s}, mid={%s}\n", x, left, right, mid);
             }
-            if (x / mid == mid) {
-                System.out.printf("x={%s}, left={%s}, right={%s}, mid={%s}\n", x, left, right, mid);
+
+            if (Math.abs((x / mid) - mid) <= 0.001) {
+                //System.out.printf("x={%s}, left={%s}, right={%s}, mid={%s}\n", x, left, right, mid);
                 return mid;
             }
         }
