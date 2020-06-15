@@ -1,6 +1,7 @@
 package Tree;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 /**
@@ -17,9 +18,10 @@ public class BFS {
     public static void broadFirstSearch(Tree tree) {
         Queue<Tree> queue = new LinkedList<Tree>();
         queue.add(tree);
-        int depth = 0;
+        int level = 1;
         while (!queue.isEmpty()) {
             int size = queue.size();
+            System.out.println("当前层数为：" + level);
             for (int i = 0; i < size; i++) {
                 Tree node = queue.poll();
                 System.out.println("tree node data: " + node.data);
@@ -31,9 +33,10 @@ public class BFS {
                     queue.add(node.rightNode);
                 }
             }
-            depth++;
+            level++;
         }
-        System.out.println("当前Tree的层数为：" + depth);
+        System.out.println("当前Tree的层数为：" + level);
+
     }
 
 
