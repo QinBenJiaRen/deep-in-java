@@ -65,5 +65,19 @@ public class LeetCode_70 {
         return memo[n] = helper(n - 1, memo) + helper(n - 2, memo);
     }
 
+    /**
+     *
+     * */
+    public static int climbStairs3(int n) {
+        if (n <= 1) return 1;
+        int a = 1;
+        int b = 1;
+        while (n-- > 0) {
+            b += a;
+            a = b - a;
+        }
+        return a;
+    }
+
 
 }
