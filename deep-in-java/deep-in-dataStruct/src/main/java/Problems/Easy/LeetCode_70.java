@@ -48,5 +48,22 @@ public class LeetCode_70 {
         return dp[n - 1];
     }
 
+    /**
+     * 递归 + 记忆数组
+     * */
+    public static int climbStairs2(int n) {
+        int[] memo = new int[n + 1];
+        return helper(n, memo);
+    }
+
+    public static int helper(int n, int[] memo) {
+        if (n <= 1) {
+            return 1;
+        }
+        if (memo[n] > 0 ) return memo[n];
+
+        return memo[n] = helper(n - 1, memo) + helper(n - 2, memo);
+    }
+
 
 }
