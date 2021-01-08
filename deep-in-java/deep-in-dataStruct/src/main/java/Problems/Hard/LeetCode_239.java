@@ -41,6 +41,7 @@ public class LeetCode_239 {
 
     /**
      * 优先队列
+     * link: https://leetcode-cn.com/problems/sliding-window-maximum/solution/hua-dong-chuang-kou-zui-da-zhi-by-leetco-ki6m/
      * */
     public int[] maxSlidingWindow_2(int[] nums, int k) {
         int n = nums.length;
