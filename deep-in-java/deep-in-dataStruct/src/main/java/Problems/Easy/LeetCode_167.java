@@ -1,6 +1,7 @@
 package Problems.Easy;
 
 import java.sql.Timestamp;
+import java.util.Arrays;
 import java.util.Date;
 
 /**
@@ -20,6 +21,27 @@ public class LeetCode_167 {
         System.out.println(res);
         Date date = new Date();
         System.out.println(System.currentTimeMillis()/1000);
+
+        String time = "2021-02-23 17:36:12";
+        System.out.println(time.substring(5, 10));
+
+        String supplierId = "1";
+        if (supplierId.indexOf("-") == -1) {
+            StringBuilder builder = new StringBuilder();
+            builder.append("-");
+            builder.append(supplierId);
+            builder.append("-");
+            supplierId = builder.toString();
+        }
+        String supplierName = "aaa";
+        String[] suppliers = supplierId.split("-");
+        String[] names = supplierName.split("#");
+        for (int i = 0; i < names.length; i++) {
+            String id = suppliers[i+1];
+            String name = names[i];
+            System.out.println(id + "-" + name);
+        }
+
 
     }
 
