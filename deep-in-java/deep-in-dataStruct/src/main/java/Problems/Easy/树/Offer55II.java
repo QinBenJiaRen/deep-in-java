@@ -15,6 +15,31 @@ public class Offer55II {
 
     }
 
+    public static boolean isBalanced(TreeNode root) {
+        return maxDepth(root) != -1;
+    }
+
+    public static int maxDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = Integer.MIN_VALUE;
+        if (root.left != null) {
+            left = Math.max(maxDepth(root.left), left);
+        }
+        if (left == -1) {
+            return -1;
+        }
+        int right = Integer.MIN_VALUE;
+        if (root.right != null) {
+            right = Math.max(maxDepth(root.right), right);
+        }
+        if (right == -1) {
+            return -1;
+        }
+        return Math.abs(left - right) <= 1 ? Math.max(left, right) + 1 : -1;
+    }
+
     public class TreeNode {
         int val;
         TreeNode left;
