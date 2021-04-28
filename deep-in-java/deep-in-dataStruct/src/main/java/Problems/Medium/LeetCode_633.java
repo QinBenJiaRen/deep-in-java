@@ -27,4 +27,23 @@ public class LeetCode_633 {
         }
         return false;
     }
+
+    /**
+     * 双指针法
+     * */
+    public boolean judgeSquareSum_2(int c) {
+        long left = 0;
+        long right = (long) Math.sqrt(c);
+        while (left <= right) {
+            long sum = left * left + right * right;
+            if (sum == c) {
+                return true;
+            } else if (sum > c) {
+                right--;
+            } else if (sum < c) {
+                left++;
+            }
+        }
+        return false;
+    }
 }
