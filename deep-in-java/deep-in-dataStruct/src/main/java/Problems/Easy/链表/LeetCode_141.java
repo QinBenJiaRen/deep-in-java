@@ -1,4 +1,4 @@
-package Problems.Easy;
+package Problems.Easy.链表;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * @Description
+ * @Description 环形链表
  * @Author jia_h
  * @Date 2021/1/11 9:50
  * @Version 1.0
