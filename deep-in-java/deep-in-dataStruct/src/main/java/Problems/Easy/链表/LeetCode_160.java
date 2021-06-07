@@ -49,6 +49,20 @@ public class LeetCode_160 {
     /**
      * 解法2：双指针法
      * */
+    public ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null) {
+            return null;
+        }
+        ListNode curA = headA;
+        ListNode curB = headB;
+        while (curA != curB) {
+            // A链表遍历结束后遍历B链表
+            curA = curA == null ? headB : curA.next;
+            // B链表遍历结束后遍历A链表
+            curB = curB == null ? headA : curB.next;
+        }
+        return curA;
+    }
 
 
 
