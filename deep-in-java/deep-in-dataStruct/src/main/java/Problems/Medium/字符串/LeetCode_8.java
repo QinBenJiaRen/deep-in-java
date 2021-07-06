@@ -32,6 +32,7 @@ public class LeetCode_8 {
         // 判断首位是否为数字，如果为符号，则从第1位开始；如果为数字，则从第0位开始
         int i = !Character.isDigit(str.charAt(0)) ? 1 : 0;
         while (i < str.length() && Character.isDigit(str.charAt(i))) {
+            // 隐式类型转换
             res = res * 10 + (str.charAt(i) - '0');
             // 正数
             if (!neg && res > Integer.MAX_VALUE) {
