@@ -1,5 +1,8 @@
 package Problems.Medium.字符串;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @Description 字符串转换整数（atoi）https://leetcode-cn.com/problems/string-to-integer-atoi/
  * @Author jia_h
@@ -10,9 +13,19 @@ public class LeetCode_8 {
 
     public static void main(String[] args) {
 
-        String str = "42";
-        int res = myAtoi(str);
-        System.out.println(res);
+
+    }
+
+    /**
+     * DFA (有限状态机）
+     * */
+    public int myAtoi_1(String str) {
+        Automaton automaton = new Automaton();
+        int length = str.length();
+        for (int i = 0; i < length; i++) {
+            automaton.get(str.charAt(i));
+        }
+        return (int) (automaton.sign * automaton.ans);
     }
 
     /**
@@ -47,4 +60,51 @@ public class LeetCode_8 {
         }
         return neg ? (int) -res : (int) res;
     }
+
+
+    /**
+     *
+     * */
+    class Automaton {
+        public int sign = 1;
+        public long ans = 0L;
+        private String state = "start";
+        // 自动机状态图
+        /**
+         *           ''          +/-         number          other
+         * start     start       signed      in_number       end
+         * signed    end         end         in_number       end
+         * in_number end         end         in_number       end
+         * end       end         end         end             end
+         * */
+        private Map<String, String[]> table = new HashMap<String, String[]>() {{
+            put("start", new String[]{"start", "signed", "in_number", "end"});
+            put("signed", new String[]{"end", "end", "in_number", "end"});
+            put("in_number", new String[]{"end", "end", "in_number", "end"});
+            put("end", new String[]{"end", "end", "end", "end"});
+        }};
+
+        public void get(char c) {
+            state = table.get(state)[get_col(c)];
+            if ("in_number".equals(state)) {
+                ans = ans * 10 + c - '0';
+                ans = sign == 1 ? Math.min(ans, Integer.MAX_VALUE) : Math.min(ans, -(long)Integer.MIN_VALUE);
+            } else if ("signed".equals(state)){
+                sign = c == '+' ? 1 : -1;
+            }
+        }
+
+        private int get_col(char c) {
+            if (c == ' ') {
+                return 0;
+            } else if (c == '+' || c == '-') {
+                return 1;
+            } else if (Character.isDigit(c)){
+                return 2;
+            } else {
+                return 3;
+            }
+        }
+    }
+
 }
