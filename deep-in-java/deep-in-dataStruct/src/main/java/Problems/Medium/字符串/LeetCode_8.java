@@ -101,9 +101,8 @@ public class LeetCode_8 {
                 return 1;
             } else if (Character.isDigit(c)){
                 return 2;
-            } else {
-                return 3;
             }
+            return 3;
         }
     }
 
