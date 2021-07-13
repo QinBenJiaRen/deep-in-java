@@ -10,12 +10,14 @@ public class LeetCode_7 {
 
     /**
      * url:https://leetcode-cn.com/problems/reverse-integer/
-     * */
+     */
     public static void main(String[] args) {
 
         int n = 1534236469;
         int res = reverse(n);
         System.out.println(res);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
     }
 
     public static int reverse(int x) {
@@ -31,6 +33,26 @@ public class LeetCode_7 {
                 return 0;
             }
         }
-        return nes ? -(int) res : (int)res;
+        return nes ? -(int) res : (int) res;
+    }
+
+    /**
+     * Integer.MAX_VALUE = 2147483647
+     * Integer.MIN_VALUE = -2147483648
+     * */
+    public int reverse_1(int x) {
+        int res = 0;
+        while (x != 0) {
+            int tmp = x % 10;
+            if (res > 214748364 || (res == 214748364 && tmp > 7)) {
+                return 0;
+            }
+            if (res < -214748364 || (res == -214748364 && tmp < -8)) {
+                return 0;
+            }
+            res = res * 10 + tmp;
+            x /= 10;
+        }
+        return res;
     }
 }
