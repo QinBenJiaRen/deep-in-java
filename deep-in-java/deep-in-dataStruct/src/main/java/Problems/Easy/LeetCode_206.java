@@ -1,7 +1,5 @@
 package Problems.Easy;
 
-import java.util.Stack;
-
 /**
  * @Description 反转链表
  * @Author jia_h
