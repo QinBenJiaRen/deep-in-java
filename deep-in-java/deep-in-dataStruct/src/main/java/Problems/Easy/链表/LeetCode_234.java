@@ -47,4 +47,11 @@ public class LeetCode_234 {
         }
         return true;
     }
+
+    /**
+     * 快慢指针
+     * */
+    public boolean isPalindrome2(ListNode head){
+        return false;
+    }
 }
