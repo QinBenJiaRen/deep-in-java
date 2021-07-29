@@ -10,9 +10,9 @@ public class UserControllerDynamicProxy {
         this.userController = userController;
     }
 
-    public Object createProxy(Object proxiedObject) {
-        Class<?>[] interfaces = proxiedObject.getClass().getInterfaces();
-        DynamicHandler dynamicHandler = new DynamicHandler(proxiedObject);
-        return Proxy.newProxyInstance(proxiedObject.getClass().getClassLoader(), interfaces, dynamicHandler);
+    public Object createProxy(Object obj) {
+        Class<?>[] interfaces = obj.getClass().getInterfaces();
+        DynamicHandler dynamicHandler = new DynamicHandler(obj);
+        return Proxy.newProxyInstance(obj.getClass().getClassLoader(), interfaces, dynamicHandler);
     }
 }
