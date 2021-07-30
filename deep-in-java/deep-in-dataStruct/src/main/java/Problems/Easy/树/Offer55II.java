@@ -1,19 +1,12 @@
 package Problems.Easy.树;
 
 /**
- * @Description 平衡二叉树
+ * @Description 平衡二叉树 https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/
  * @Author jia_h
  * @Date 2021/3/22 10:23
  * @Version 1.0
  */
 public class Offer55II {
-
-    /**
-     * https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/
-     */
-    public static void main(String[] args) {
-
-    }
 
     public static boolean isBalanced(TreeNode root) {
         return maxDepth(root) != -1;
@@ -38,15 +31,5 @@ public class Offer55II {
             return -1;
         }
         return Math.abs(left - right) <= 1 ? Math.max(left, right) + 1 : -1;
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int val) {
-            this.val = val;
-        }
     }
 }

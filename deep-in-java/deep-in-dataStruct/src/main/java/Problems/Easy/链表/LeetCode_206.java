@@ -1,19 +1,12 @@
-package Problems.Easy;
+package Problems.Easy.链表;
 
 /**
- * @Description 反转链表
+ * @Description 反转链表 https://leetcode-cn.com/problems/reverse-linked-list/
  * @Author jia_h
  * @Date 2021/2/3 10:01
  * @Version 1.0
  */
 public class LeetCode_206 {
-
-    /**
-     * url:https://leetcode-cn.com/problems/reverse-linked-list/
-     * */
-    public static void main(String[] args) {
-
-    }
 
     /**
      * 双指针法
@@ -35,20 +28,6 @@ public class LeetCode_206 {
         }
         return prev;
     }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) {
-            this.val = val;
-        }
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
 }
 
 
