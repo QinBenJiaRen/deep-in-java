@@ -11,19 +11,6 @@ import java.util.List;
  */
 public class LeetCode_234 {
 
-    public class ListNode{
-        int val;
-        ListNode next;
-        ListNode() {}
-        ListNode(int val) {
-            this.val = val;
-        }
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     /**
      * 借助外部空间存储链表
      * */

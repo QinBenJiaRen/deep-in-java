@@ -4,24 +4,12 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @Description 相交链表
+ * @Description 相交链表 url:https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
  * @Author jia_h
  * @Date 2021/6/4 10:16
  * @Version 1.0
  */
 public class LeetCode_160 {
-
-    /**
-     * url:https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
-     * */
-    public class ListNode{
-        int val;
-        ListNode next;
-        ListNode(int val) {
-            this.val = val;
-            next = null;
-        }
-    }
 
     /**
      * 解法1：哈希表

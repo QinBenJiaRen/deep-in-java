@@ -1,16 +1,13 @@
 package Problems.Easy.链表;
 
 /**
- * @Description 合并两个有序链表
+ * @Description 合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists/
  * @Author jia_h
  * @Date 2021/3/16 9:34
  * @Version 1.0
  */
 public class LeetCode_21 {
 
-    /**
-     * url:https://leetcode-cn.com/problems/merge-two-sorted-lists/
-     */
     public static void main(String[] args) {
         ListNode l1 = new ListNode();
         l1.val = 1;
@@ -45,23 +42,6 @@ public class LeetCode_21 {
         } else {
             l2.next = mergeTwoLists(l1, l2.next);
             return l2;
-        }
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
         }
     }
 }

@@ -1,34 +1,21 @@
 package Problems.Easy.链表;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 /**
- * @Description 环形链表
+ * @Description 环形链表 url:https://leetcode-cn.com/problems/linked-list-cycle/
  * @Author jia_h
  * @Date 2021/1/11 9:50
  * @Version 1.0
  */
 public class LeetCode_141 {
 
-    /**
-     * url:https://leetcode-cn.com/problems/linked-list-cycle/
-     * */
-
     public static void main(String[] args) {
 
     }
 
-    class ListNode{
-        int val;
-        ListNode next;
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
+
 
     public boolean hasCycle(ListNode head) {
         Map<ListNode, Integer> map = new HashMap<>();
