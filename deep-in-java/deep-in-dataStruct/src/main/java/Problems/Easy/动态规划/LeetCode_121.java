@@ -10,7 +10,7 @@ public class LeetCode_121 {
 
     /**
      * 双重循环，会超时
-     * */
+     */
     public int maxProfit(int[] prices) {
         Integer maxProfit = Integer.MIN_VALUE;
 
@@ -24,6 +24,21 @@ public class LeetCode_121 {
             }
         }
 
+        return maxProfit;
+    }
+
+    /**
+     * 单循环
+     */
+    public int maxProfit_1(int[] prices) {
+        Integer minPrice = Integer.MAX_VALUE;
+        Integer maxProfit = Integer.MIN_VALUE;
+        int len = prices.length;
+        for (int i = 0; i < len; i++) {
+            int a = prices[i];
+            minPrice = Math.min(minPrice, a);
+            maxProfit = Math.max(a - minPrice, maxProfit);
+        }
         return maxProfit;
     }
 
