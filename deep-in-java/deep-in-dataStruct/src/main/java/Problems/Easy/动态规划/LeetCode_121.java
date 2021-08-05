@@ -8,6 +8,9 @@ package Problems.Easy.动态规划;
  */
 public class LeetCode_121 {
 
+    public static void main(String[] args) {
+    }
+
     /**
      * 双重循环，会超时
      */
