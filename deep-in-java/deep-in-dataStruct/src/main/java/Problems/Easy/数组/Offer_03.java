@@ -22,4 +22,23 @@ public class Offer_03 {
         }
         return -1;
     }
+    
+    /**
+     * 原地排序 
+     * 详细过程见《剑🈯️Offer》第二版第39页
+     */
+    public int findRepeatNumber_1(int[] nums) {
+        for (int i = 0; i < nums.lenght; i++) {
+            while (i != nums[i]) {
+                if (nums[i] == nums[nums[i]]) {
+                    return nums[i];
+                } else {
+                    int tmp = nums[i];
+                    num[i] = nums[tmp]];
+                    nums[tmp] = tmp;
+                }
+            }
+        }
+        return -1;
+    }
 }
