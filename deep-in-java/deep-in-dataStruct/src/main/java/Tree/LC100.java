@@ -23,7 +23,7 @@ public class Solution {
       } else if (p.val != q.val) {
         return false;
       } else {
-        return isSameTree(p.left, q.rigth) && isSameTree(p.right, q.left);
+        return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
       }
     }
  }
