@@ -12,6 +12,9 @@ import com.google.common.hash.Funnels;
  */
 public class BloomFilterDemo {
 
+    /**
+     * 309/(1000000 + 10000) * 100 ≈ 0.030594059405940593 误判率
+     * */
     public static void main(String[] args) {
         int total = 1000000;
         BloomFilter<CharSequence> bf = BloomFilter.create(Funnels.stringFunnel(Charsets.UTF_8), total, 0.0002);
