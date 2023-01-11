@@ -17,6 +17,7 @@ public class BloomFilterDemo {
      * */
     public static void main(String[] args) {
         int total = 1000000;
+        // 设置误判率 fpp = 0.0002
         BloomFilter<CharSequence> bf = BloomFilter.create(Funnels.stringFunnel(Charsets.UTF_8), total, 0.0002);
         // 初始化 1000000 条数据到过滤器中
         for (int i = 0; i < total; i++) {
