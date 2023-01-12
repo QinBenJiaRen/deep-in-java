@@ -11,7 +11,7 @@ import java.util.Stack;
  * @Date 2021/3/24 9:48
  * @Version 1.0
  */
-public class LeetCode_589 {
+public class LC_589 {
 
     /**
      * url:https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/

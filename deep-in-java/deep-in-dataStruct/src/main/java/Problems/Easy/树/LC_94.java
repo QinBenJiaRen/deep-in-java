@@ -11,7 +11,7 @@ import java.util.List;
  * @Date 2021/7/28 10:54
  * @Version 1.0
  */
-public class LeetCode_94 {
+public class LC_94 {
 
     /**
      * 递归

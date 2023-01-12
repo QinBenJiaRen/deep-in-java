@@ -6,7 +6,7 @@ package Problems.Easy.树;
  * @Date 2021/3/1 10:00
  * @Version 1.0
  */
-public class LeetCode_110 {
+public class LC_110 {
 
     public boolean isBalanced(TreeNode root) {
 

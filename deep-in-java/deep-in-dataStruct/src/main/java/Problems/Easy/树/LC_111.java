@@ -6,7 +6,7 @@ package Problems.Easy.树;
  * @Date 2021/3/17 10:30
  * @Version 1.0
  */
-public class LeetCode_111 {
+public class LC_111 {
 
     /**
      * DFS

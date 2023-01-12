@@ -11,7 +11,7 @@ import java.util.List;
  * @Date 2021/7/28 11:43
  * @Version 1.0
  */
-public class LeetCode_144 {
+public class LC_144 {
 
     /**
      * 树的前序遍历：
