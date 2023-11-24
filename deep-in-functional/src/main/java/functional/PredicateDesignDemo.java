@@ -15,7 +15,7 @@ public class PredicateDesignDemo {
         //
         Stream.of(1,2,3,4,5).filter(num -> num % 2 == 0).forEachOrdered(System.out::println);
 
-        Stream.of(3,4,5,6).filter(num -> num % 3 == 0)..forEachOrdered(System.out::println);
+        Stream.of(3,4,5,6).filter(num -> num % 3 == 0).forEachOrdered(System.out::println);
     }
 
     private static <E> Collection<E> filter(Collection<E> source, Predicate<E> predicate){
